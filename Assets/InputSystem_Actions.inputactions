@@ -236,7 +236,7 @@
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "InvertVector2(invertX=false)",
-                    "groups": ";Gamepad;Keyboard&Mouse",
+                    "groups": ";Gamepad",
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -246,8 +246,8 @@
                     "id": "8c8e490b-c610-4785-884f-f04217b23ca4",
                     "path": "<Pointer>/delta",
                     "interactions": "",
-                    "processors": "InvertVector2(invertX=false)",
-                    "groups": ";Keyboard&Mouse;Touch;Gamepad",
+                    "processors": "InvertVector2(invertX=false,invertY=false)",
+                    "groups": ";Keyboard&Mouse;Joystick",
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
